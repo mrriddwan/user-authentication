@@ -8,7 +8,7 @@
 
 <script>
 
-import UserService from "../services/user.service"
+import UserService from "../services/user-service"
 
 export default {
     name: "Home",
