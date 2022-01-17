@@ -1,4 +1,4 @@
-<template>
+<template class="register-page">
   <div class="col-md-12">
     <div class="card card-container">
       <img
@@ -22,8 +22,8 @@
 
           <div class="form-group">
             <label for="password">Password</label>
-            <Field name="password" class="form-control"></Field>
-            <ErrorMessage name="password" class="error-feedback"></ErrorMessage>
+            <Field name="password" type="password" class="form-control" />
+            <ErrorMessage name="password" class="error-feedback" />
           </div>
 
           <div class="form-group">
@@ -39,6 +39,9 @@
               Sign Up
             </button>
           </div>
+
+          
+
         </div>
       </Form>
       <div
@@ -132,5 +135,11 @@ export default {
 </script>
 
 <style scoped>
-
+.register-page{ font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>

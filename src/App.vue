@@ -12,9 +12,9 @@
           <router-link to="/admin" class="nav-link">Admin Board</router-link>
         </li>
 
-        <li v-if="showModeratorBoard" class="nav-item">
+        <!-- <li v-if="showModeratorBoard" class="nav-item">
           <router-link to="/mod" class="nav-link">Moderator Board</router-link>
-        </li>
+        </li> -->
 
         <li class="nav-item">
           <router-link v-if="currentUser" to="/user" class="nav-link">User</router-link>
